@@ -20,7 +20,7 @@ Clone this repository to your local machine using Git:
 
 Bash
 git clone [repository_url]
-Используйте код с осторожностью.
+
 content_copy
 ### 3. Start the Docker Containers:
 
@@ -28,7 +28,7 @@ Navigate to the project directory and run the following command to start the Doc
 
 Bash
 docker-compose up -d
-Используйте код с осторожностью.
+
 content_copy
 This will start the PostgreSQL database container and the Node.js application container.
 
@@ -38,7 +38,7 @@ If you haven't already created the database tables, you can run the database mig
 
 Bash
 node migrations/createEventsTable.js
-Используйте код с осторожностью.
+
 content_copy
 This will create the necessary tables in the PostgreSQL database.
 
@@ -48,7 +48,7 @@ Once the Docker containers are up and running, you can start the React applicati
 
 Bash
 npm start
-Используйте код с осторожностью.
+
 content_copy
 This will start a development server and open the React application in your web browser.
 
